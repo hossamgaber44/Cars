@@ -1,0 +1,80 @@
+.Possibilities{
+    margin: 12px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Possibilities .Possibilities-cotent{
+    background: #ffffff;
+    flex-basis: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 8px 0px;
+    height: 455px;
+    padding: 12px;
+}
+.Possibilities .Possibilities-cotent .Possibilities-img{
+    width: 77%;
+    margin: auto;
+}
+.Possibilities .Possibilities-cotent .Possibilities-title{
+    color: #2e2525;
+    font-size: 18px;
+}
+.Possibilities .Possibilities-cotent .Possibilities-price,
+h4{
+    color: #ff0000;
+    margin: 4px 0px;
+}
+.Possibilities .Possibilities-cotent h4{
+    margin: 4px 0px 14px;
+}
+.Possibilities .Possibilities-cotent .Possibilities-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Possibilities .Possibilities-cotent .Possibilities-link a:first-of-type{
+    padding: 10px 18px;
+    color: #ffffff;
+    background: #ff0000;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+.Possibilities .Possibilities-cotent .Possibilities-link a:last-of-type{
+    margin-right: 2px;
+}
+.Possibilities .Possibilities-cotent .Possibilities-link a:last-of-type:hover{
+    color: #ff0000;
+}
+
+@media (max-width: 1100) {
+	.container{
+        width: 94%;
+    }
+}
+
+@media (max-width: 1000px) {
+	.Possibilities .Possibilities-cotent{
+        flex-basis: 48.8%;
+    }
+}
+
+@media (max-width: 600px) {
+    .Possibilities .Possibilities-cotent{
+        flex-basis: 100%;
+        align-items: center;
+        margin: auto;
+        margin: 8px;
+    }
+    .Possibilities .Possibilities-cotent .Possibilities-info{
+        width: 70%;
+        margin: auto;
+    }
+    .Possibilities .Possibilities-cotent .Possibilities-img{
+        width: 55%;
+        margin: auto;
+    }
+}

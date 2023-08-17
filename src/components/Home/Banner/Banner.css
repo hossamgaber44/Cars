@@ -1,0 +1,59 @@
+
+.banner .text {
+    min-height: 88vh;
+	color: #0b3860;
+}
+.banner .text h1{
+    font-weight: 400;
+	font-size: 48px;
+}
+.banner{
+	height: 100vh;
+	background-image:url(./../../../../public/img/Background-home.png);
+	background-repeat: no-repeat;
+	 background-size:cover;
+    background-position: left;	
+}
+.banner .text{
+	position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    width: 30%;
+	text-align: center;
+}
+.banner .container .text h1{
+	font-size: 40px;
+}
+
+
+
+
+
+
+
+@media (max-width: 980px) {
+	.banner .text{
+		width: 46%;
+		text-align: start;
+	}
+}
+
+@media (max-width: 860px) {
+	.banner .text{
+		width: 52%;
+		text-align: start;
+	}
+	.banner .text{
+		color: #000000;
+	}
+}
+
+@media (max-width: 520px) {
+    .banner .text{
+		width: 70%;
+		text-align: start;
+	}
+	.banner .text{
+		color: #000000;
+	}
+}

@@ -1,0 +1,52 @@
+.About{
+    padding: 110px 0px 0px;
+}
+.About .about-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.About .about-content .about-img{
+    flex-basis: 54%;
+}
+.About .about-content .about-info{
+    flex-basis: 44%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.About .about-content .about-info .about-header{
+    color: #ff0000;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.About .about-content .about-info .about-title{
+    padding: 8px 0px;
+}
+.About .about-content .about-info .about-data {
+    margin: 16px 0px;
+    font-size: 15px;
+    letter-spacing: 1.4;
+    color: #585858;
+    padding: 14px 0px 22px;
+}
+.About .about-content .about-info .about-btn{
+     padding: 10px 14px;
+     color: #ffffff;
+     background: #ba0303;
+     border-radius: 4px;
+}
+@media (max-width: 840px) {
+    .About .about-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .About .about-content .about-img{
+        flex-basis: 88%;
+    }
+    .About .about-content .about-info , h3, h1, h5, a {
+        margin: auto;
+    }
+}

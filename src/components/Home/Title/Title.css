@@ -1,0 +1,18 @@
+.title{
+    padding: 90px 0px 20px;
+    text-align: center;
+}
+.title-header{
+    color: #ff0000;
+    font-size: 18px;
+    letter-spacing:2px;
+}
+.title h1{
+    margin: 10px;
+    color: #2c3e50;
+}
+.title-info{
+    color: #585858;
+    letter-spacing: 1.4px;
+    font-size: 16px;
+}

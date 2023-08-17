@@ -1,0 +1,147 @@
+.footer {
+    margin: 40px 0px 8px;
+    padding: 60px 0px;
+    background: #e4e9f1;
+}
+
+.footer .footer-content .logo h1 {
+    margin: 0px 0px 12px;
+    font-size: 36px;
+}
+
+.footer .footer-content .footer-text {
+    color: rgb(100, 101, 103);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .footer-brand {
+    flex-basis: 30%;
+}
+
+.footer-content .footer-list .footer-list-title {
+    color: #000000;
+    margin: 20px 0px;
+}
+
+.footer-content .footer-list {
+    flex-basis: 19%;
+    margin: 12px 0px;
+}
+
+.footer-content .footer-list li {
+    margin: 6px 0px;
+}
+
+.footer-content .footer-list li a {
+    color: rgb(100, 101, 103);
+    font-size: 18px;
+}
+
+.footer-content .footer-brand {
+    flex-basis: 26%;
+}
+
+.footer-content .footer-list:last-of-type {
+    flex-basis: 28%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-content .footer-list:last-of-type .footer-list-title {
+    width: 100%;
+    display: block;
+}
+
+.footer-content .footer-list:last-of-type .footer-link {
+    flex-basis: 49%;
+
+}
+
+.footer-content .footer-list .footer-list-title {
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.footer-content .footer-list .footer-list-title p {
+    margin: 0px;
+}
+
+
+/*
+social-media
+*/
+.footer .social-media {
+    margin: 12px 0px 0px;
+    text-align: center;
+    border-bottom: 1px solid #0077b6;
+    padding: 16px 0px 24px;
+}
+
+.footer .social-media a {
+    font-size: 20px;
+    border: 1px solid #0077b6;
+    border-radius: 50%;
+    color: #0077b6;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    margin-right: 6px;
+    transition: all .5s ease-in-out;
+}
+
+.footer .social-media a:hover {
+    transform: rotate(360deg);
+    background: #0077b6;
+    color: #ffffff;
+}
+
+.footer .credit {
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    padding: 18px 0px;
+    background: #4DD0E1;
+}
+
+.footer .credit span {
+    color: #0077b6;
+}
+
+@media (max-width: 1100) {}
+
+@media (max-width: 920px) {
+    .footer .footer-content .footer-text {
+        width: 80%;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+    }
+
+    .footer-content .footer-brand {
+        flex-basis: 100%;
+    }
+
+    .footer-content .footer-list {
+        flex-basis: 50%;
+    }
+
+    .footer-content .footer-list:last-of-type {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 520px) {
+    .footer .footer-content .footer-text {
+        width: 90%;
+    }
+
+    .footer-content .footer-list {
+        flex-basis: 50%;
+    }
+}

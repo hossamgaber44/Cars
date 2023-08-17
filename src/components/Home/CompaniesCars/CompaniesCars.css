@@ -1,0 +1,54 @@
+
+.companies-cars{
+    margin: 60px 0px 0px;
+}
+.companies-cars .cars-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.companies-cars .cars-content .companies-car{
+    flex-basis: 49%;
+    background: #ffffff;
+    margin: 12px 8px;
+    border-radius: 12px;
+}
+.companies-cars .cars-content .companies-car .companies-car-img{
+    margin-bottom: 6px;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    height: 120px;
+
+}
+
+.companies-cars .cars-content .companies-car h3{
+    margin: 12px 14px 6px;
+    color: #071e63;
+} 
+
+@media (max-width: 1000px) {
+    .companies-cars .cars-content{
+        flex-wrap: wrap;
+    }
+	.companies-cars .cars-content .companies-car{
+        flex-basis: 31.5%;
+        margin: 12px 0px;
+        padding: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+   .companies-cars .cars-content .companies-car{
+        flex-basis: 48.6%;
+        padding: 16px;
+    }
+}
+@media (max-width: 520px) {
+    .companies-cars .cars-content .companies-car{
+         flex-basis: 49%;
+         padding: 6px;
+     }
+ }

@@ -1,0 +1,299 @@
+{
+    "products":
+    [
+        {
+            "id":1,
+            "img":"/img/car1.jpg",
+            "name":"Toyota RAV4",
+            "model":"2020",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"5.3km / 1-litre",
+            "type2":"Automatic",
+            "price":"400",
+            "duration":" month",
+            "typeCar":"typesCars"
+        },
+        {
+            "id":2,
+            "img":"/img/car2.jpg",
+            "name":"Toyota RAV4",
+            "model":"2020",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"5.3km / 1-litre",
+            "type2":"Automatic",
+            "price":"400",
+            "duration":" month",
+            "typeCar":"typesCars"
+        },
+        {
+            "id":3,
+            "img":"/img/car3.jpg",
+            "name":"Toyota RAV4",
+            "model":"2020",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"5.3km / 1-litre",
+            "type2":"Automatic",
+            "price":"400",
+            "duration":" month",
+            "typeCar":"typesCars"
+        },
+        {
+            "id":4,
+            "img":"/img/car4.jpg",
+            "name":"Toyota RAV4",
+            "model":"2020",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"5.3km / 1-litre",
+            "type2":"Automatic",
+            "price":"400",
+            "duration":" month",
+            "typeCar":"typesCars"
+        },
+        {
+            "id":5,
+            "img":"/img/car5.jpg",
+            "name":"Toyota RAV4",
+            "model":"2020",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"5.3km / 1-litre",
+            "type2":"Automatic",
+            "price":"400",
+            "duration":" month",
+            "typeCar":"typesCars"
+        },
+        {
+            "id":6,
+            "img":"/img/car6.jpg",
+            "name":"Toyota RAV4",
+            "model":"2020",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"5.3km / 1-litre",
+            "type2":"Automatic",
+            "price":"400",
+            "duration":" month",
+            "typeCar":"typesCars"
+        },
+        {
+            "id":7,
+            "name":"Toyota RAV4",
+            "model":"2020",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"5.3km / 1-litre",
+            "type2":"Automatic",
+            "price":"400",
+            "duration":" month",
+            "img":"/img/car-1.jpg",
+            "typeCar" : "FeaturedCars"
+        },
+        {
+            "id":8,
+            "name":"Cadillac Escalade",
+            "model":"2020",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"7.7km / 1-litre",
+            "type2":"Automatic",
+            "price":"620",
+            "duration":" month",
+            "img":"/img/car-2.jpg",
+            "typeCar" : "FeaturedCars"
+        },
+        {
+            "id":9,
+            "name":"Volkswagen T-Cross",
+            "model":"2020",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"5.3km / 1-litre",
+            "type2":"Automatic",
+            "price":"400",
+            "duration":" month",
+            "img":"/img/car-3.jpg",
+            "typeCar" : "FeaturedCars"
+        },
+        {
+            "id":10,
+            "name":"Cadillac Escalade",
+            "model":"2020",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"7.7km / 1-litre",
+            "type2":"Automatic",
+            "price":"620",
+            "duration":" month",
+            "img":"/img/car-4.jpg",
+            "typeCar" : "FeaturedCars"
+        },
+        {
+            "id":11,
+            "name":"BMW 4 Series GTI",
+            "model":"2021",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"7.6km / 1-litre",
+            "type2":"Automatic",
+            "price":"530 ",
+            "duration":" month",
+            "img":"/img/car-5.jpg",
+            "typeCar" : "FeaturedCars"
+        },
+        {
+            "id":12,
+            "name":"BMW 4 Series",
+            "model":"2019",
+            "numberOfPeople":"4",
+            "type1":"Gasoline",
+            "speed":"7.2km / 1-litre",
+            "type2":"Automatic",
+            "price":"490",
+            "duration":" month",
+            "img":"/img/car-6.jpg",
+            "typeCar" : "FeaturedCars"
+        }
+    ],
+    "Possibilities":
+    [
+        {
+            "id":1,
+            "img":"img/part1.png",
+            "title":"Lorem ipsum dolor sit amet.",
+            "price": 120.99
+        },
+        {
+            "id":2,
+            "img":"img/part2.png",
+            "title":"Lorem ipsum dolor sit amet.",
+            "price": 120.99
+        },
+        {
+            "id":3,
+            "img":"img/part3.png",
+            "title":"Lorem ipsum dolor sit amet.",
+            "price": 120.99
+        },
+        {
+            "id":4,
+            "img":"img/part4.png",
+            "title":"Lorem ipsum dolor sit amet.",
+            "price": 140.60
+        },
+        {
+            "id":5,
+            "img":"img/part5.png",
+            "title":"Lorem ipsum dolor sit amet.",
+            "price": 120.99
+        },
+        {
+            "id":6,
+            "img":"img/part6.png",
+            "title":"Lorem ipsum dolor sit amet.",
+            "price": 200
+        }
+    ],
+    "Blog":[
+        {
+            "id":1,
+            "img":"img/car1.jpg",
+            "title":"How To Get Prefect Car At Low Price",
+            "info":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis sit alias ipsam oditearum."
+        },
+        {
+            "id":2,
+            "img":"img/car3.jpg",
+            "title":"How To Get Prefect Car At Low Price",
+            "info":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis sit alias ipsam oditearum."
+        },
+        {
+            "id":3,
+            "img":"img/car6.jpg",
+            "title":"How To Get Prefect Car At Low Price",
+            "info":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis sit alias ipsam oditearum."
+        }
+    ],
+    "CompaniesCars":[
+        {
+            "id":1,
+            "img":"img/toyota.jpeg",
+            "title":"toyota"
+        },
+        {
+            "id":2,
+            "img":"img/mercedes.jpeg",
+            "title":"mercedes"
+        },
+        {
+            "id":3,
+            "img":"img/bmw.jpeg",
+            "title":"bmw"
+        },
+        {
+            "id":4,
+            "img":"img/mazda.jpeg",
+            "title":"mazda"
+        },
+        {
+            "id":5,
+            "img":"img/nissan.jpeg",
+            "title":"nissan"
+        },
+        {
+            "id":6,
+            "img":"img/kia.jpeg",
+            "title":"kia"
+        }
+    ],
+    "FeaturedCars":[
+        
+    ],
+   
+    "LatestNews":
+    [
+        {
+            "id":1,
+            "img":"img/offer 1.jpeg",
+            "date":"12-02-2005",
+            "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, debitis."
+        },
+        {
+            "id":2,
+            "img":"img/offer 2.jpeg",
+            "date":"5-07-2011",
+            "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, debitis."
+        },
+        {
+            "id":3,
+            "img":"img/offer 3.jpeg",
+            "date":"8-02-2014",
+            "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, debitis."
+        }
+    ],
+    "Customer":
+    [
+        {
+            "id":1,
+            "img":"",
+            "name":"Ahmed",
+            "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, debitis."
+        },
+        {
+            "id":2,
+            "img":"img/offer 2.jpeg",
+            "name":"Mohamed",
+            "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, debitis."
+        },
+        {
+            "id":3,
+            "img":"img/offer 3.jpeg",
+            "name":"Hossam",
+            "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, debitis."
+        }
+    ]
+    
+}

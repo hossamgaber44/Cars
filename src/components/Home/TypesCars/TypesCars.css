@@ -1,0 +1,60 @@
+.TypesCars{
+    margin: 9px 0px;
+}
+.Types-Cars-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Types-Cars-content .car{
+    flex-basis: 32%;
+    border-radius: 10px;
+    position: relative;
+    margin: 8px 0px;
+    overflow: hidden;
+    overflow: hidden;
+}
+.Types-Cars-content .car img{
+    transition: all .3s ease-in-out;
+}
+.Types-Cars-content .car img:hover{
+    transform: scale(1.2,1.2);
+    transition: all .3s ease-in-out;
+}
+.Types-Cars-content .car .car-btn{
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    background: #ffffff;
+    color: #2c3e50;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+}
+.Types-Cars-content .car .car-btn:hover{
+    color: #ffffff;
+    background: #ff0000;
+}
+.Types-Cars-content .car .car-img{
+    height: 270px;
+    overflow: hidden;
+}
+@media (max-width: 1100) {
+	.container{
+        width: 94%;
+    }
+}
+
+@media (max-width: 990px) {
+	.Types-Cars-content .car{
+        flex-basis: 48.8%;
+    }
+}
+
+@media (max-width: 600px) {
+    .Types-Cars-content .car{
+        flex-basis: 100%;
+        align-items: center;
+    }
+}

@@ -1,0 +1,113 @@
+svg{
+    width: 20px ;
+    height: 20px;
+    color: red;
+    margin-right: 8px;
+}
+.FeaturedCars{
+   margin: 20px 0px;
+}
+.FeaturedCars-content , .FeaturedCars-price,
+.FeaturedCars-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.FeaturedCars-info{
+    margin: 10px;
+}
+.Featured-cars{
+    flex-basis: 32.4%;
+    margin: 10px 0px;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 16px;
+    background: #e4e9f1;
+}
+.FeaturedCars-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.FeaturedCars-title h2{
+    color:#22262a;
+    font-size: 29px;
+    font-weight: 400;
+    font-family: emoji;
+    height: 40px;
+}
+.FeaturedCars-title span{
+    padding: 6px 14px;
+    border: 2px  dashed rgb(0, 221, 255);
+    border-radius: 20px;
+}
+.data{
+    flex-basis: 49%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 6px 0px;
+}
+.data h3{
+    font-size: 17px;
+    margin-left: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #585858;
+}
+.data i{
+    font-size: 17px;
+    color:rgb(0, 221, 255);
+}
+.FeaturedCars-price{
+    margin: 10px 0px;
+}
+.FeaturedCars-body{
+    padding: 20px 0px;
+    border-bottom: 1px solid #8d8888;
+}
+.FeaturedCars-img{
+    overflow: hidden;
+    border-radius: 12px;
+}
+.FeaturedCars-img img{
+    transition: all .3s ease-in-out;
+}
+.FeaturedCars-img img:hover{
+    transform: scale(1.2,1.2);
+    transition: all .3s ease-in-out;
+}
+.total-price span:first-of-type{
+    font-size: 26px;
+    margin: 4px 8px;
+}
+.FeaturedCars-btn{
+    border: none;
+    font-size: 16px;
+    margin: 4px 8px;
+    padding: 8px 10px;
+    background: rgb(0, 221, 255);
+    color: #ffffff;
+    border-radius: 18px;
+}
+
+
+@media (max-width: 1080px) {
+    .FeaturedCars-content {
+        flex-wrap: wrap;
+    }
+	.Featured-cars{
+        flex-basis: 48.6%;
+    }
+}
+
+@media (max-width: 630px) {
+    .Featured-cars{
+        flex-basis: 100%;
+    }
+    .data h3 {
+        margin: none;
+    }
+}

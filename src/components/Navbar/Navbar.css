@@ -1,0 +1,149 @@
+.nav-bar {
+    height: 12vh;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index: 9999;
+    border-bottom: 1.5px solid #fff;
+    background: linear-gradient(9deg, #ffffff 50%, red 100%);
+}
+
+.nav-bar {
+    height: 12vh;
+    overflow: hidden;
+}
+
+.nav-bar .nav-icon {
+    padding-top: 16px;
+    width: 20%;
+    transition: all .5s ease-in-out;
+}
+
+.nav-bar .nav-icon:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.1, 1.1);
+}
+
+.top-header-menu {
+    display: none;
+    font-size: 34px;
+}
+
+.navbar-close-icon {
+    display: none;
+    font-size: 34px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+}
+
+.navbar .navbar-link {
+    color: #000000;
+    font-size: 18px;
+    margin-right: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar .navbar-link:hover {
+    color: rgb(223, 15, 15);
+}
+
+.navbar-close-icon {
+    display: none;
+    font-size: 32px;
+    color: #e74c3c;
+    padding: 20px 0px 0px 20px;
+    width: 100%;
+}
+
+.navbar-close-icon i {
+    cursor: pointer;
+    color: var(--light-red-color);
+}
+
+.top-header-menu {
+    font-size: 34px;
+    cursor: pointer;
+    display: none;
+    color: rgb(223, 15, 15);
+}
+
+@media (max-width: 1100px) {
+
+    .navbar-link {
+        margin-right: 17px;
+    }
+}
+
+@media (max-width: 920px) {
+    .nav-bar {
+        background: #ffffff;
+    }
+
+    .top-header-menu {
+        display: block;
+    }
+
+    .navbar-close-icon {
+        display: block;
+    }
+
+    .navbar {
+        background: #00000099;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: -320px;
+        width: 320px;
+        padding: 0;
+        z-index: 99;
+        transition: all .5s ease;
+    }
+
+    .navbar .navbar-link {
+        margin: auto;
+        padding-left: 60px;
+        color: #ffffff;
+        width: fit-content;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        height: 80%;
+        justify-content: space-around;
+    }
+
+    .nav-bar .nav-icon {
+        width: 28%;
+    }
+
+    .container {
+        width: 88%;
+    }
+}
+
+@media (max-width: 520px) {
+    .navbar {
+        width: 100%;
+        right: -100%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .nav-bar .nav-icon {
+        width: 38%;
+    }
+
+    .navbar .navbar-link {
+        margin: 16px auto;
+    }
+}
